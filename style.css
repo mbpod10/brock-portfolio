@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Courier+Prime:ital,wght@0,400;1,700&family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Changa:wght@700&family=Cinzel:wght@900&family=MedievalSharp&family=Metal+Mania&display=swap");
+body {
+  background-color: black;
+  font-family: "Cinzel", serif;
+  font-family: "Permanent Marker", cursive;
+}
+
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("https://i.imgur.com/s3i5NLD.jpg");
+  background-size: cover;
+  height: 200px;
+}
+h1 {
+  color: white;
+  padding: 30px;
+  font-size: 2.5rem;
+  font-family: "Permanent Marker", cursive;
+}
+
+.head-container p {
+  color: yellow;
+  font-size: 1.5rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.navbar {
+  background-color: black;
+  background-size: cover;
+}
+.navbar-light .navbar-brand {
+  font-size: 2rem;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-size: 1.75rem;
+  color: orange;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.quote {
+  background-image: url("https://i.imgur.com/Voyln9L.jpg");
+  background-size: cover;
+  height: 800px;
+  margin-bottom: 0;
+}
+
+.quote h1 {
+  font-size: 4rem;
+}
+.quote p {
+  font-size: 3rem;
+}
+.quote h1,
+.quote p {
+  font-family: "Permanent Marker", cursive;
+}
+
+#if-statement {
+  text-transform: lowercase;
+  font-family: "Courier Prime", monospace;
+  color: orange;
+}
+
+#media-about {
+  background-image: url("https://i.imgur.com/i4c8rY3.jpg");
+  background-size: cover;
+}
+
+.display-4 {
+  font-size: 2.75rem;
+  text-align: center;
+}
+
+.lead {
+  color: white;
+}
+
+#carouselExampleCaptions {
+  display: none;
+}
+
+section h3 {
+  color: white;
+  padding: 30px;
+}
+
+.display-4,
+.lead {
+  font-family: "Audiowide", cursive;
+}
+
+.card {
+  background-color: #d0d0d0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-image: url("https://i.imgur.com/1jMhJpv.jpg");
+  background-size: cover;
+  border: solid white 1px;
+}
+
+.card h5 {
+  color: lightblue;
+  padding: 5px;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 15px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-size: 2rem;
+}
+
+.card img {
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.card p {
+  font-size: 1rem;
+  margin: 10px;
+  color: white;
+}
+
+.card a {
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  width: 77.17px;
+  color: grey;
+  background-color: black;
+}
+
+.card a:hover {
+  color: yellow;
+  background-color: grey;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+main {
+  margin-bottom: 174px;
+}
+.contact-me {
+  background-color: #d0d0d0;
+  padding-bottom: 30px;
+}
+.contact-me h4 {
+  padding-top: 30px;
+  margin-left: 30px;
+}
+form .btn {
+  margin-left: 30px;
+}
+
+form .btn:hover {
+  color: yellow;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.form-group {
+  margin: 30px;
+}
+#comment-section.form-group {
+  margin-bottom: 30px;
+}
+#social-media {
+  display: flex;
+  flex-direction: column;
+  background-color: #0ba2eb;
+}
+
+.image-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 30px;
+  align-items: center;
+}
+.email a {
+  font-size: 1rem;
+  margin-left: 30px;
+  margin-top: 30px;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  font-family: "Changa", sans-serif;
+}
+
+.email a h4 {
+  text-align: left;
+  padding-left: 15px;
+}
+#social-media a {
+  width: 48px;
+  height: 48px;
+  text-align: right;
+}
+#social-media a img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  padding: 3px;
+}
+#social-media a img:hover {
+  background-color: yellow;
+  width: 53px;
+  height: 53px;
+}
+.copyright {
+  color: white;
+  position: relative;
+  bottom: 0;
+}
+.bottom {
+  background-color: black;
+
+  padding-top: 50px;
+}
+
+.bottom h5 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.bottom-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.bottom-nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.bottom a {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.bottom a:hover {
+  color: yellow;
+}
+
+.hide {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  #media-about {
+    display: none;
+  }
+  .work-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .card {
+    margin: 2px;
+    margin-top: 15px;
+    width: 45%;
+  }
+
+  #carouselExampleCaptions {
+    display: block;
+    border-radius: 15px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 3rem;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+    font-family: "Audiowide", cursive;
+  }
+
+  .carousel-caption p {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    font-family: "Audiowide", cursive;
+  }
+  .card img {
+    height: 300px;
+    width: auto;
+  }
+  .email h4 {
+    font-size: 2.5rem;
+  }
+  #social-media a {
+    width: 80px;
+    height: 80px;
+    text-align: right;
+  }
+  #social-media a img {
+    display: block;
+    width: 80px;
+    height: 80px;
+  }
+  #social-media a img:hover {
+    width: 85px;
+    height: 85px;
+  }
+  .bottom h5 {
+    color: white;
+    font-size: 2.5rem;
+  }
+  .bottom a {
+    color: white;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1080px) {
+  .head-container h1 {
+    color: yellow;
+    padding: 30px;
+    font-size: 4.5rem;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+      1px 1px 0 #000;
+  }
+
+  .head-container p {
+    color: white;
+    font-size: 2.5rem;
+  }
+
+  .carousel-caption h5 {
+    font-size: 4rem;
+  }
+
+  .carousel-caption p {
+    font-size: 2rem;
+  }
+
+  .card img {
+    height: 400px;
+    width: auto;
+  }
+  .email h4 {
+    font-size: 3.5rem;
+  }
+  #social-media a {
+    width: 100px;
+    height: 100px;
+    text-align: right;
+  }
+  #social-media a img {
+    display: block;
+    width: 100px;
+    height: 100px;
+  }
+  #social-media a img:hover {
+    background-color: yello;
+    width: 105px;
+    height: 105px;
+  }
+  .bottom h5 {
+    color: white;
+    font-size: 3rem;
+  }
+  .bottom a {
+    color: white;
+    font-size: 1.5rem;
+  }
+  .hide {
+    display: block;
+  }
+}
